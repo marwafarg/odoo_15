@@ -36,7 +36,7 @@
         'base_setup',
         'web_editor',
         'mail',
-        'anita_login',
+
     ],
     'excludes': [
         'web_enterprise',
