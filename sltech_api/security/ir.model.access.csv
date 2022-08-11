@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-sltech_api.access_sltech_points_rules,access_sltech_points_rules,model_sltech_points_rules,,1,1,1,1
-sltech_api.access_sltech_point_txn,access_sltech_point_txn,model_sltech_point_txn,,1,1,1,1
