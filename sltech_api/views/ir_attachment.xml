@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="ir_attachments_form_view_inherited">
+            <field name="name">ir.attachment.inherited</field>
+            <field name="model">ir.attachment</field>
+            <field name="inherit_id" ref="base.view_attachment_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='website_id']" position="after">
+                    <field name="category_id"/>
+                    <field name="offer_text"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
